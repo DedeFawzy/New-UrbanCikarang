@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UrbanCikarang</string>
+
+    <string name="title_section1">Beranda</string>
+    <string name="title_section2">Mention @UrbanCikarang</string>
+    <string name="title_section3">Tentang</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="iklan">Buat Iklan</string>
+    <string name="partner">Media Partner</string>
+    <string name="feedback">Feedback</string>
+    <string name="exit">Keluar</string>
+    <string name="aksi">Lengkapi aksi menggunakan :</string>
+    <string name="isi_iklan">Jenis iklan :\n \nRincian iklan :</string>
+    <string name="action_exit">Keluar Aplikasi?</string>
+    <string name="yoik">Ya</string>
+    <string name="mbung">Tidak</string>
+</resources>

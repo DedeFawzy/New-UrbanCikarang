@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".UrbanCikarang">
+    <item android:id="@+id/share" android:title="@string/share" android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_iklan" android:title="@string/iklan"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_partner" android:title="@string/partner"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_feedback" android:title="@string/feedback"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_exit" android:title="@string/exit"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
