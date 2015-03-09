@@ -2,10 +2,13 @@ package com.fawzy.urbancikarang;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -35,6 +38,13 @@ public class UrbanCikarang extends ActionBarActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (isNetworkStatusAvialable(getApplicationContext())) {
+            Toast.makeText(getApplicationContext(), (getString(R.string.tunggu)), Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Toast.makeText(getApplicationContext(), (getString(R.string.putus)), Toast.LENGTH_SHORT).show();
+            finish();
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_urban_cikarang);
 
@@ -211,5 +221,17 @@ public class UrbanCikarang extends ActionBarActivity
         });
         AlertDialog alert=builder.create();
         alert.show();
+    }
+
+    public boolean isNetworkStatusAvialable (Context context) {
+        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (connectivityManager != null)
+        {
+            NetworkInfo netInfos = connectivityManager.getActiveNetworkInfo();
+            if(netInfos != null)
+                if(netInfos.isConnected())
+                    return true;
+        }
+        return false;
     }
 }

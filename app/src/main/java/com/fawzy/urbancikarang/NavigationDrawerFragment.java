@@ -250,7 +250,7 @@ public class NavigationDrawerFragment extends Fragment {
         if (item.getItemId() == R.id.share) {
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
-            String shareBody = "Get @UrbanCikarang App for free now! Grab it here: http://goo.gl/fSpk5A";
+            String shareBody = (getString(R.string.share_isi));
             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(sharingIntent, "Share via"));
             return true;

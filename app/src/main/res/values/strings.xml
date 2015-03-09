@@ -27,5 +27,8 @@
     <string name="jomblo">©2015 Dede Fawzy\nFull Support for UrbanCikarang</string>
     <string name="keep_utd">Keep uptodate &amp; know more about Cikarang</string>
     <string name="changelog">View Changelog</string>
-    <string name="share">Share</string>
+    <string name="share">Share this app</string>
+    <string name="tunggu">Please wait until the page loaded</string>
+    <string name="putus">No internet connection, Exiting…</string>
+    <string name="share_isi">Install @UrbanCikarang Android app for free now! Grab it here http://goo.gl/fSpk5A</string>
 </resources>

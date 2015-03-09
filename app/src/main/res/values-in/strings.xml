@@ -27,5 +27,8 @@
     <string name="jomblo">©2015 Dede Fawzy\nFull Support for UrbanCikarang</string>
     <string name="keep_utd">Keep uptodate &amp; know more about Cikarang</string>
     <string name="changelog">Lihat Changelog</string>
-    <string name="share">Share</string>
+    <string name="share">Berbagi aplikasi ini</string>
+    <string name="tunggu">Tunggu hingga halaman selesai memuat</string>
+    <string name="putus">Tidak ada koneksi internet, mengeluarkan…</string>
+    <string name="share_isi">Install aplikasi android @UrbanCikarang gratis sekarang! Dapatkan disini http://goo.gl/fSpk5A</string>
 </resources>
