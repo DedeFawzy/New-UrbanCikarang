@@ -39,10 +39,10 @@ public class UrbanCikarang extends ActionBarActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         if (isNetworkStatusAvialable(getApplicationContext())) {
-            Toast.makeText(getApplicationContext(), (getString(R.string.tunggu)), Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), (getString(R.string.tunggu)), Toast.LENGTH_LONG).show();
         }
         else {
-            Toast.makeText(getApplicationContext(), (getString(R.string.putus)), Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), (getString(R.string.putus)), Toast.LENGTH_LONG).show();
             finish();
         }
         super.onCreate(savedInstanceState);
@@ -125,7 +125,7 @@ public class UrbanCikarang extends ActionBarActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_iklan) {
 
-            Toast.makeText(getApplicationContext(), "Beriklan di UrbanCikarang mulai dari Rp. 50.000", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Beriklan di UrbanCikarang mulai dari Rp. 50.000", Toast.LENGTH_LONG).show();
             Intent iklanIntent = new Intent(android.content.Intent.ACTION_SEND);
             String iklanEmailList[] = {"urbancikarang@gmail.com"};
             iklanIntent.putExtra(android.content.Intent.EXTRA_EMAIL, iklanEmailList);
