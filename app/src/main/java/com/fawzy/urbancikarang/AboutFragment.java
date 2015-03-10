@@ -1,7 +1,6 @@
 package com.fawzy.urbancikarang;
 
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -41,7 +40,8 @@ public class AboutFragment extends Fragment {
     }
 
     protected void creditList() {
-        new AlertDialog.Builder(getActivity()).setTitle("UrbanCikarang").setMessage(getString(R.string.daftar_credit)).setNeutralButton("Close", null).show();
+        Intent intent = new Intent(getActivity(), Devs.class);
+        AboutFragment.this.startActivity(intent);
     }
 
     protected void changelog() {

@@ -31,6 +31,11 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait" >
         </activity>
+        <activity android:name=".Devs"
+            android:label="@string/tentang"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>
