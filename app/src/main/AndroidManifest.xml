@@ -33,9 +33,12 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity android:name=".Devs"
-            android:label="@string/tentang"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:configChanges="orientation"
             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
         </activity>
     </application>
 
