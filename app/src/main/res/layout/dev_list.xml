@@ -87,7 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="  Web Master"
+        android:text="  Founder"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:background="#98000000"
