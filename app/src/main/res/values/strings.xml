@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">UrbanCikarang</string>
 
-    <string name="title_section1">Home</string>
-    <string name="title_section2">Mention @UrbanCikarang</string>
-    <string name="title_section3">About</string>
+    <string name="home">Home</string>
+    <string name="mention">Mention @UrbanCikarang</string>
+    <string name="about">About</string>
+    <string name="community">Community</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
